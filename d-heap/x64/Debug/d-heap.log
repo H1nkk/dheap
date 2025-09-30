@@ -1,0 +1,68 @@
+﻿  d-heap.cpp
+D:\Programming\cPP!\d-heap\d-heap.cpp(111,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+      D:\Programming\cPP!\d-heap\d-heap.cpp(111,20):
+      the template instantiation context (the oldest one first) is
+          D:\Programming\cPP!\d-heap\d-heap.cpp(129,16):
+          see reference to class template instantiation 'dheap<int>' being compiled
+          D:\Programming\cPP!\d-heap\d-heap.cpp(108,10):
+          while compiling class template member function 'void dheap<int>::pyramidSort(std::vector<T,std::allocator<T>> &)'
+          with
+          [
+              T=int
+          ]
+              D:\Programming\cPP!\d-heap\d-heap.cpp(142,18):
+              see the first reference to 'dheap<int>::pyramidSort' in 'main'
+  
+D:\Programming\cPP!\d-heap\d-heap.cpp(67,29): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+      D:\Programming\cPP!\d-heap\d-heap.cpp(67,29):
+      the template instantiation context (the oldest one first) is
+          D:\Programming\cPP!\d-heap\d-heap.cpp(65,10):
+          while compiling class template member function 'void dheap<int>::insert(T)'
+          with
+          [
+              T=int
+          ]
+              D:\Programming\cPP!\d-heap\d-heap.cpp(131,17):
+              see the first reference to 'dheap<int>::insert' in 'main'
+  
+D:\Programming\cPP!\d-heap\d-heap.cpp(70,16): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\cPP!\d-heap\d-heap.cpp(46,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+      D:\Programming\cPP!\d-heap\d-heap.cpp(46,15):
+      the template instantiation context (the oldest one first) is
+          D:\Programming\cPP!\d-heap\d-heap.cpp(45,10):
+          while compiling class template member function 'void dheap<int>::ascend(int)'
+              D:\Programming\cPP!\d-heap\d-heap.cpp(79,19):
+              see the first reference to 'dheap<int>::ascend' in 'dheap<int>::erase'
+              D:\Programming\cPP!\d-heap\d-heap.cpp(134,16):
+              see the first reference to 'dheap<int>::erase' in 'main'
+  
+D:\Programming\cPP!\d-heap\d-heap.cpp(50,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+D:\Programming\cPP!\d-heap\d-heap.cpp(19,21): warning C4267: '*=': conversion from 'size_t' to 'int', possible loss of data
+      D:\Programming\cPP!\d-heap\d-heap.cpp(19,21):
+      the template instantiation context (the oldest one first) is
+          D:\Programming\cPP!\d-heap\d-heap.cpp(15,10):
+          while compiling class template member function 'void dheap<int>::arrCopy(const std::vector<T,std::allocator<T>> &)'
+          with
+          [
+              T=int
+          ]
+              D:\Programming\cPP!\d-heap\d-heap.cpp(109,16):
+              see the first reference to 'dheap<int>::arrCopy' in 'dheap<int>::pyramidSort'
+              D:\Programming\cPP!\d-heap\d-heap.cpp(142,18):
+              see the first reference to 'dheap<int>::pyramidSort' in 'main'
+  
+D:\Programming\cPP!\d-heap\d-heap.cpp(39,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+      D:\Programming\cPP!\d-heap\d-heap.cpp(39,29):
+      the template instantiation context (the oldest one first) is
+          D:\Programming\cPP!\d-heap\d-heap.cpp(34,9):
+          while compiling class template member function 'int dheap<int>::maxChildIndex(int)'
+              D:\Programming\cPP!\d-heap\d-heap.cpp(54,15):
+              see the first reference to 'dheap<int>::maxChildIndex' in 'dheap<int>::descend'
+              D:\Programming\cPP!\d-heap\d-heap.cpp(115,20):
+              see the first reference to 'dheap<int>::descend' in 'dheap<int>::pyramidSort'
+              D:\Programming\cPP!\d-heap\d-heap.cpp(142,18):
+              see the first reference to 'dheap<int>::pyramidSort' in 'main'
+  
+  d-heap.vcxproj -> D:\Programming\cPP!\d-heap\x64\Debug\d-heap.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
